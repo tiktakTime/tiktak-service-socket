@@ -1,0 +1,4 @@
+project/node_modules
+.idea
+project/yarn.lock
+**/.DS_Store
