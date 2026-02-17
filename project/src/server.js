@@ -16,7 +16,6 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", service: "tiktak-service-socket" });
 });
 
-
 // HTTP Server (Socket.IO icin gerekli)
 const server = http.createServer(app);
 
